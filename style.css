@@ -1,13 +1,32 @@
+.content{
+    background-color: rgb(188, 188, 188);
+    vertical-align: center;
+    margin: -10;
+    display: flex;
+    position: fixed;
+}
+  
+  .content img {
+    padding: 1%;
+    margin-right: 10px;
+    display: block;
+    width: 15%;
+  }
+
 h1{
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    background-color: rgb(255, 166, 0);
+    text-align: left;
+    display:inline;
+}
+.text {
+    padding-top: 3%;
 }
 
 .item5{
     list-style: none;
     width: 300px;
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 6%;
 }
 
 .item5 li{
